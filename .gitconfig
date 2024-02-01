@@ -1,0 +1,8 @@
+[user]
+	name = Milan Petrovic
+	email = 5rovicmilan8@gmail.com
+[alias]
+	cm = commit -m
+	s = status
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status

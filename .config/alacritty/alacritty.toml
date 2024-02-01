@@ -1,0 +1,17 @@
+import = ["/home/tox/.config/alacritty/kitty.toml"]
+
+[cursor.style]
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 8.5 
+
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "semibold"
+
+[window]
+opacity = 0.75

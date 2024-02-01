@@ -1,14 +1,54 @@
 # Dotfiles 
 
 - Dotfiles for Arch Linux
-
+- All dotfiles are managed by GNU Stow
 - Full neovim configuration out of the box
+- Configured i3, so its recommended to use with i3
 
 ## Dependencies 
-## Notes
-- *INSTALL ZSH BEFORE RUNNING SCRIPTS*
-- *Remove files and directories that can interfere with symlinks; ~/.config/nvim, ~/.zshrc for example*
-- Change .github in github directory 
-- Make sure to have ~/.local/bin/ directory for scripts located in bin directory
-- For installing i3 use i3 [install script](https://github.com/endeavouros-team/EndeavourOS-packages-lists) from Endeavouros Team. This script also contains all pacakges used in ther ISO install
-- Tweak the rest of the config to your liking
+
+### Shell
+```
+sudo pacman -S zsh
+```
+
+### ZSH plugin manger and plugins
+
+- oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+- powerlevel10k theme
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+- zsh-syntax-highlighting
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM"/plugins/zsh-syntax-highlighting
+```
+- zsh-autosuggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git "$ZSH_CUSTOM"/plugins/zsh-autosuggestions
+```
+
+### Gnu Stow
+```
+sudo pacman -S Stow
+```
+
+### Utilites
+```
+sudo pacman -S fzf ripgrep alacritty bat exa duf fd dua-cli npm
+```
+
+### Neovim
+```
+sudo pacman -S neovim
+```
+
+# Notes 
+- Install zsh first
+- Change email and name in .github file
+- Create .local/bin directory in $HOME for binaries 
+- All packages for i3 installation can be found [here](https://github.com/endeavouros-team/EndeavourOS-packages-lists) 
+

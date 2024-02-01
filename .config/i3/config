@@ -19,10 +19,6 @@
 # config starts here: #
 #######################
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango: Noto Sans Regular 10
 
 # set the mod key to the winkey:
@@ -43,9 +39,13 @@ workspace_layout default
 # Each new window will open fullscreen as a tab (left to right)
 #workspace_layout tabbed
 
+
+### IMPORTANT CHAGNGE THIS FOR YOUR DEVICES
+
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Tapping Enabled" 1
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Natural Scrolling Enabled" 1
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Middle Emulation Enabled" 1
+
 
 ##############################
 # extra options for windows: #

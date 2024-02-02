@@ -15,6 +15,20 @@
 
 ## Dependencies 
 
+### i3
+
+To install i3 you can download i3 packages list file from EndeavourOS repo
+Download this file somewhere eles and remove it after installing everything
+
+```
+curl -O https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-packages-lists/master/i3
+```
+
+```
+sudo pacman -S --needed < i3
+```
+
+
 ### Shell
 ```
 sudo pacman -S zsh

@@ -1,4 +1,4 @@
-import = ["/home/tox/.config/alacritty/kitty.toml"]
+import = ["~/.config/alacritty/kitty.toml"]
 
 [cursor.style]
 shape = "Block"

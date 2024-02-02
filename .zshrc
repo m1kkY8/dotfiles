@@ -21,7 +21,7 @@ alias run_server='~/projects/c-chat/bin/chat_server'
 alias run_client='~/projects/c-chat/bin/chat_client'
 
 alias mile='sudo virsh start archlinux'
-alias smile='ssh mile@mile -i ~/.ssh/mile-vm'
+alias smile='ssh mile@mile'
 
 ###
 alias :q='exit'

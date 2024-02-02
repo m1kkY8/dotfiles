@@ -20,7 +20,7 @@
 
 You can install all packages by running:
 ```
-sudo pacman -S --needed - < packages'
+sudo pacman -S --needed - < packages
 ```
 
 ## Manual installation

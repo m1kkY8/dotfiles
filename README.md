@@ -5,6 +5,7 @@
 - Configured i3, so its recommended to use with i3
 
 # Notes 
+- Best way to use this dotfiles in on fresh install of EndeavourOS since it has distro-specific packages
 - Make sure to backup all files before downloading and running stow
 - Install zsh first
 - Change email and name in .github file
@@ -13,7 +14,16 @@
 
 
 
-## Dependencies 
+## Installation 
+
+### Automatic installation
+
+You can install all packages by running:
+```
+sudo pacman -S --needed - < packages'
+```
+
+## Manual installation
 
 ### i3
 
@@ -25,7 +35,7 @@ curl -O https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-packages-
 ```
 
 ```
-sudo pacman -S --needed < i3
+sudo pacman -S --needed - < i3
 ```
 
 

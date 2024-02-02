@@ -1,8 +1,5 @@
 #!/bin/env bash
 
-# Better to use as function in .bashrc or .zshrc file
-
-
 selected=$(fd -H --type f --type l --exclude=Pictures --exclude=Music \
     | fzf --info=inline-right --reverse --cycle\
     --preview "bat --color=always {}" --preview-window=right,65%)

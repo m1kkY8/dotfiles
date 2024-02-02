@@ -73,6 +73,16 @@ sudo pacman -S stow
 sudo pacman -S fzf ripgrep alacritty bat exa duf fd dua-cli npm
 ```
 
+### Tmux
+```
+sudo pacman -S tmux 
+```
+
+Tmux plugin manager
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 
+```
+
 ### Neovim
 ```
 sudo pacman -S neovim

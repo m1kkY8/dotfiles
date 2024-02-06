@@ -1,7 +1,6 @@
 # Dotfiles 
 - Dotfiles for Arch Linux
 - All dotfiles are managed by GNU Stow
-- Full neovim configuration out of the box
 - Configured i3, so its recommended to use with i3
 
 # Notes 
@@ -70,7 +69,7 @@ sudo pacman -S stow
 
 ### Utilites
 ```
-sudo pacman -S fzf ripgrep alacritty bat exa duf fd dua-cli npm
+sudo pacman -S fzf ripgrep alacritty bat exa duf fd dua-cli npm clang nodejs
 ```
 
 ### Tmux
@@ -84,6 +83,24 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ### Neovim
+
+Neovim config is moved to [new repo](https://github.com/m1kkY8/nvimrc)
+To install it just clone this repo in ~/.config
+
+**Clone repo after installing nvim**
+
+Remove existing neovim configs
+
+```
+rm -rf ~/.config/nvim 
+rm -rf ~/.local/share/nvim
+```
+
+Install config
+```
+git clone https://github.com/m1kkY8/nvimrc ~/.config/nvim --depth 1 && nvim
+```
+
 1. Installing neovim on Arch
 ```
 sudo pacman -S neovim

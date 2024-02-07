@@ -19,7 +19,7 @@ alias c='clear'
 alias ll='exa --long --git --icons -lhr -snew'
 alias lla='exa --long --git --icons -lahr -snew'
 alias gla='lla | grep'
-alias cat='bat'
+alias cat='bat -pp'
 alias nf='neofetch'
 
 alias pacs='sudo pacman -S'
@@ -49,7 +49,7 @@ alias rmm='find | fzf --reverse --multi --cycle --info=inline-right | xargs -I {
 function vimf(){
     selected=$(fd -H --type f --type l --exclude=Pictures --exclude=Music \
         | fzf --info=inline-right --reverse --preview \
-        "bat --color=always {}" --preview-window=right,65%)
+        "bat -pp --color=always {}" --preview-window=right,65%)
 
     if [[ -z $selected ]]; then
         return 0;

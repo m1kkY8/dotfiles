@@ -6,7 +6,7 @@ node_modules
 .local
 .rustup
 .cargo
-.config/*
+.config
 .mozilla
 .npm
 .oh-my-zsh
@@ -35,3 +35,4 @@ node_modules
 .ssh
 go
 .BurpSuite
+.john

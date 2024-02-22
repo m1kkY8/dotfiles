@@ -4,11 +4,11 @@ while true; do
     update_count=$(/usr/bin/checkupdates | wc -l)
     
     if [ "$update_count" -gt 0 ]; then
-        echo "$update_count new updates" 
+        echo "$update_count new update\s" 
         sleep 30 
     else
         echo "No new updates" 
-        sleep 600
+        sleep 120
 
     fi
 done

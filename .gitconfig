@@ -3,3 +3,5 @@
 	email = 5rovicmilan8@gmail.com
 [alias]
 	editor = nvim
+[init]
+	defaultBranch = main

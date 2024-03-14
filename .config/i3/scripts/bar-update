@@ -5,10 +5,10 @@ while true; do
     
     if [ "$update_count" -gt 0 ]; then
         echo "$update_count new update\s" 
-        sleep 30 
+        sleep 120 
     else
         echo "No new updates" 
-        sleep 120
+        sleep 900 
 
     fi
 done

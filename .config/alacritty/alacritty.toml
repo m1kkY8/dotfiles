@@ -1,7 +1,7 @@
 import = ["~/.config/alacritty/theme.toml"]
 
 [cursor.style]
-shape = "Underline"
+shape = "Beam"
 
 [env]
 TERM = "xterm-256color"

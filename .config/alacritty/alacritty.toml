@@ -11,6 +11,7 @@ size = 9
 
 [font.normal]
 family = "JetBrains Mono Nerd Font"
+#family = "CaskaydiaCove Nerd Font"
 style = "semibold"
 
 [window]

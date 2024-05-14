@@ -1,7 +1,9 @@
 [user]
 	name = Milan Petrovic
 	email = 5rovicmilan8@gmail.com
-[alias]
-	editor = nvim
 [init]
 	defaultBranch = main
+[core]
+    editor = nvim
+[alias]
+    st = status

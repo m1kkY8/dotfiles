@@ -1,10 +1,12 @@
 alias :q='exit'
 
-alias v='nvim'
-alias v.='nvim .'
+alias x='xplr'
+alias fucking='sudo'
+alias n='nvim'
+alias n.='nvim .'
 alias top='btop'
 alias svim='sudo nvim'
-alias nomnom='sudo killall'
+alias lg='lazygit'
 
 alias zshconf='nvim ~/.zshrc'
 alias sex='exec zsh'
@@ -18,7 +20,7 @@ alias shutdown='shutdown now'
 alias c='clear'
 alias ll='exa --long --git --icons -snew --group-directories-first -lhr'
 alias la='exa --long --git --icons -snew --group-directories-first -lahr'
-alias gla='lla | grep'
+alias gla='la | grep'
 alias cat='bat -pp'
 alias nf='neofetch'
 
@@ -30,9 +32,12 @@ alias sfile='grep -Rnw . -e'
 alias sshstart='sudo systemctl start sshd'
 
 alias cpv='rsync -avh --info=progress2'
+alias tks='tmux kill-server'
+
+alias gc="git clone"
 
 alias gpp='g++'
-alias pyrun='python3'
+alias p='python3'
 alias pyserver='python3 -m http.server'
 
 alias usage='du -ch | grep total'

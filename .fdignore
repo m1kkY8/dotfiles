@@ -1,4 +1,8 @@
 Games
+.gnupg
+.vim
+.git
+.github
 IdeaProjects/*
 Pictures/*
 dev/rustlings/*

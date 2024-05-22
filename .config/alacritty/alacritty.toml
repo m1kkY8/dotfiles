@@ -14,5 +14,15 @@ family = "JetBrains Mono Nerd Font"
 #family = "CaskaydiaCove Nerd Font"
 style = "semibold"
 
+[font.bold]
+family = "JetBrains Mono Nerd Font"
+#family = "CaskaydiaCove Nerd Font"
+style = "bold"
+    
+[font.italic]
+family = "JetBrains Mono Nerd Font"
+#family = "CaskaydiaCove Nerd Font"
+style = "italic"
+
 [window]
 opacity = 0.75

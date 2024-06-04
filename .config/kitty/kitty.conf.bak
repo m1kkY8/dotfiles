@@ -1,0 +1,9 @@
+
+font_family SFMono Font
+font_size 18
+
+
+# BEGIN_KITTY_THEME
+# Tokyo
+include current-theme.conf
+# END_KITTY_THEME

@@ -17,6 +17,14 @@ source $ZSH/oh-my-zsh.sh
 source ~/.personal.zsh
 source ~/.aliases.zsh
 
+EDITOR="nvim"
+
+source <(fzf --zsh)
+
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

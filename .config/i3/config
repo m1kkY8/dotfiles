@@ -74,7 +74,7 @@ bindsym $mod+Shift+9    move container to workspace  $ws9
 bindsym $mod+Shift+0    move container to workspace  $ws10
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty 
+bindsym $mod+Return exec --no-startup-id /usr/bin/kitty 
 
 # kill focused window
 bindsym $mod+q kill

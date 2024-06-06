@@ -23,7 +23,7 @@ alias ll='exa --long --git --icons -snew --group-directories-first -lhr'
 alias la='exa --long --git --icons -snew --group-directories-first -lahr'
 alias gla='la | grep'
 alias cat='bat -pp'
-alias nf='neofetch'
+alias nf='fastfetch'
 
 alias pacs='sudo pacman -S'
 alias pacsyu='sudo pacman -Syu'

@@ -9,7 +9,7 @@ alias svim='sudo nvim'
 alias lg='lazygit'
 
 alias zshconf='nvim ~/.zshrc'
-alias sex='exec zsh'
+alias sex='source ~/.zshrc && exec zsh'
 
 alias pacman='sudo pacman --color=auto'
 alias yay='yay --color=auto'

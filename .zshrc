@@ -10,13 +10,13 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-source <(fzf --zsh)
 
 plugins=(
     fzf-tab
     zsh-autosuggestions 
     zsh-syntax-highlighting 
     rust 
+    golang
     )
 
 source $ZSH/oh-my-zsh.sh
@@ -26,6 +26,7 @@ source ~/.aliases.zsh
 
 EDITOR="nvim"
 
+source <(fzf --zsh)
 eval "$(navi widget zsh)"
 
 HISTFILE="$HOME/.zsh_history"

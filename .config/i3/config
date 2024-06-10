@@ -74,6 +74,7 @@ bindsym $mod+Shift+9    move container to workspace  $ws9
 bindsym $mod+Shift+0    move container to workspace  $ws10
 
 # start a terminal
+# bindsym $mod+Return exec --no-startup-id /usr/bin/alacritty
 bindsym $mod+Return exec --no-startup-id /usr/bin/kitty
 
 # kill focused window
@@ -93,7 +94,6 @@ bindsym F1 exec --no-startup-id ~/.config/i3/scripts/change-bg
 # Backlight control
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5 && dunstify -u normal -t 1000 -r 6812 "Brightness: $(light -G)%" -h int:value:$(light -G)
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 && dunstify -u normal -t 1000 -r 6812 "Brightness: $(light -G)%" -h int:value:$(light -G)
-
 
 # change focus
 bindsym $mod+h focus left

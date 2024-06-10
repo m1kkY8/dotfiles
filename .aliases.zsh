@@ -46,7 +46,7 @@ alias usage='du -ch | grep total'
 # yt-dlp
 
 alias dlsong='yt-dlp --no-write-description --no-playlist --extract-audio --add-metadata --audio-format mp3'
-alias dlalbum='yt-dlp --no-write-description --yes-playlist --extract-audio --add-metadata --audio-format mp3'
+alias dlalbum='yt-dlp --no-write-description --yes-playlist --extract-audio --add-metadata -q --progress --audio-format mp3'
 alias yt-best='yt-dlp -f bestaudio+bestvideo'
 
 alias cdd='cd $(fd -H . "$HOME" --type d | fzf --info=inline-right --reverse --preview "tree -C {}")'

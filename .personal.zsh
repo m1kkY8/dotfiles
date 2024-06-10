@@ -33,8 +33,7 @@ alias smint='ssh mile@mint'
 alias skali="ssh tox@kali"
 
 
-alias dlmusic="~/projects/bash-scripts/downloader.sh"
-alias loadmusic="nvim ~/projects/bash-scripts/links"
+alias dlmusic="~/projects/yt-scraper/downloader.sh"
 
 alias saver="~/projects/bash-scripts/saver"
 alias vencord="~/projects/bash-scripts/vencord"
@@ -47,3 +46,4 @@ alias myip='curl ifconfig.me'
 alias initproject="git init && npm init -y && echo 'node_modules\npackage-lock.json' > .gitignore"
 
 alias navit="navi --tldr"
+alias rec="asciinema rec"

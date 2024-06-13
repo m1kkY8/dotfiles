@@ -36,6 +36,7 @@ alias cpv='rsync -avh --info=progress2'
 alias tks='tmux kill-server'
 
 alias gc="git clone"
+alias gpm="git push -u origin main"
 
 alias gpp='g++'
 alias p='python3'

@@ -55,7 +55,7 @@ alias rmm='find | fzf --reverse --multi --cycle --info=inline-right | xargs -I {
 
 function vimf(){
     selected=$(fd -H --type f --type l --exclude=Pictures --exclude=Music \
-        | fzf --info=inline-right --reverse --preview \
+        | fzf --cycle --info=inline-right --reverse --preview \
         "bat -pp --color=always {}" --preview-window=right,65%)
 
     if [[ -z $selected ]]; then

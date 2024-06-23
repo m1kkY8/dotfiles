@@ -1,4 +1,6 @@
 .git/
+.local/share
+.gradle
 Games
 .gnupg
 .vim

@@ -1,4 +1,5 @@
 .git/
+.minecraft
 .local/share
 .gradle
 Games

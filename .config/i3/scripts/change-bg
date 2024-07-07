@@ -5,7 +5,7 @@ backgrounds_dir="$HOME/Pictures/backgrounds/"
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected="$(find "$backgrounds_dir" -type f -exec basename {} \; \
+    selected="$(find "$backgrounds_dir"  -type f -exec basename {} \; \
         | rofi -dmenu -config ~/.config/rofi/change-bg.rasi -i)"
 fi
 
@@ -15,4 +15,5 @@ fi
 
 selected_path=$backgrounds_dir$selected
 
-feh --bg-fill "$selected_path"
+feh --bg-scale "$selected_path"
+

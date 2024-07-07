@@ -7,7 +7,7 @@ alias n.='nvim .'
 alias top='btop'
 alias svim='sudo nvim'
 alias lg='lazygit'
-
+alias fzf='fzf --cycle'
 alias zshconf='nvim ~/.zshrc'
 alias sex='source ~/.zshrc && exec zsh'
 

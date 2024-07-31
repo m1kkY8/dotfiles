@@ -31,8 +31,8 @@ workspace_layout default
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Tapping Enabled" 1
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Natural Scrolling Enabled" 1
 exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Middle Emulation Enabled" 1
-exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Disable While Typing Enabled" 0
-exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Disable While Typing Enabled Default" 0
+#exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Disable While Typing Enabled" 0
+#exec_always --no-startup-id xinput set-prop "06CB0001:00 06CB:CE78 Touchpad" "libinput Disable While Typing Enabled Default" 0
 #border indicator on windows:
 new_window pixel 1
 
